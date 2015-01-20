@@ -1,0 +1,47 @@
+
+Problem 11. Programming Languages
+Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. 
+How similar are they to C#? How do they differ from C#?
+Write in a text file called “programming-languages.txt” at least five languages along with 2-3 sentences about each of them. Use English.
+=============================================
+
+
+*** C and C++
+C# is directly related to C and C++. This is not just an idea, this is real.
+As you recall C is a root for C++ and C++ is a superset of C.
+C and C++ shares several syntax, library and functionality.
+In addition structures, unions, arrays, strings and pointers are most important and similar functionality for both languages.
+Source: http://www.c-sharpcorner.com/UploadFile/jgodel/CAndOtherLanguages11292005072216AM/CAndOtherLanguages.aspx
+
+
+*** VB.NET
+Though C# and VB.NET are syntactically very different, that is where the differences mostly end.
+Microsoft developed both of these languages to be part of the same .NET Framework development platform.
+They are both developed, managed, and supported by the same language development team at Microsoft.
+They compile to the same intermediate language (IL), which runs against the same .NET Framework runtime libraries.
+Although there are some differences in the programming constructs, their differences are primarily syntactic and, 
+assuming one avoids the Visual Basic "Compatibility" libraries provided by Microsoft to aid conversion from VB6, 
+almost every command in VB has an equivalent command in C# and vice versa.
+Source: http://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Visual_Basic_.NET
+
+
+*** Java
+The main diffenrecen between C# and Java is, that Java is "platform independent". 
+In Java methods are virtual by default but you can make them final. (In C# they're sealed by default, but you can make them virtual.)
+There are plenty of IDEs for Java, both free (e.g. Eclipse, Netbeans) and commercial (e.g. IntelliJ IDEA)
+Generics are completely different between the two; 
+Java generics are just a compile-time "trick" (but a useful one at that). 
+In C# and .NET generics are maintained at execution time too, and work for value types as well as reference types, 
+keeping the appropriate efficiency (e.g. a List<byte> as a byte[] backing it, rather than an array of boxed bytes.)
+Source: http://stackoverflow.com/questions/295224/what-are-major-differences-between-c-sharp-and-java
+
+
+*** Python
+Python variables are not strongly typed. Indeed, Python variables are just labels on objects. 
+Variables are not declared; hence the description of Python as "dynamic".
+C# is statically typed. The variables are declared to the compiler to be of a specific type. 
+The code is generated based on certain knowledge about the variables use at run-time.
+Python is "interpreted" -- things are done at run-time -- little is assumed. 
+[Technically, the Python source is compiled into byte code and the byte code is interpreted. Some folks think this is an important distinction.]
+C# is compiled -- the compiler generates code based on the declared assumptions.
+Source: http://stackoverflow.com/questions/1351227/what-are-some-of-the-core-conceptual-differences-between-c-sharp-and-python
